@@ -2,6 +2,8 @@
 This is my implementation of a trading bot that I use with the Kraken Exchange. I've seen a bit of success with it, please feel free to download and have fun!
 
 # Installing 
+Firstly, this document assumes you have node.js & npm already installed on your machine. See https://docs.npmjs.com/downloading-and-installing-node-js-and-npm if you don't.
+
 You can install as a command line tool by running the following commmand. On some systems you might need to run the command line as administrator or use sudo to install this script globally.
 ```
 npm install -g .
@@ -68,10 +70,11 @@ In some cases, the auto-generation of the pair or symbol doesn't work, you can a
 ```
 
 # Running
-If you installed as a command line tool, then you can just run it from your command line:
+If you installed as a command line tool, then you can just run it from your command line: 
 ```
 kraken_bot <TARGET>
 ```
+NOTE: The `<TARGET>` should be replaced with the symbol of the crypto currency you want it to trade. (e.g. ADA, SOL, etc)
 
 Optionally, you can run it directly from the directory:
 ```
