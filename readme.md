@@ -2,7 +2,7 @@
 This is my implementation of a trading bot that I use with the Kraken Exchange. I've seen a bit of success with it, please feel free to download and have fun!
 
 # Installing 
-You can install as a command line tool by running the following commmand.
+You can install as a command line tool by running the following commmand. On some systems you might need to run the command line as administrator or use sudo to install this script globally.
 ```
 npm install -g .
 ```
@@ -70,7 +70,7 @@ In some cases, the auto-generation of the pair or symbol doesn't work, you can a
 # Running
 If you installed as a command line tool, then you can just run it from your command line:
 ```
-krakenBot <TARGET>
+kraken_bot <TARGET>
 ```
 
 Optionally, you can run it directly from the directory:
